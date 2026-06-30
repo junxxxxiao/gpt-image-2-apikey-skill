@@ -131,11 +131,19 @@ chmod 600 ~/.config/gpt-image-2-apikey/config.json
 - `model`: optional. Defaults to `gpt-image-2`.
 - `extra_body`: optional object merged into every request body for provider-specific settings.
 
-For OpenAI-compatible providers, keep `base_url` at the API root:
+For OpenAI official API, keep `base_url` at the API root:
 
 ```json
 {
-  "base_url": "https://www.packyapi.com/v1"
+  "base_url": "https://api.openai.com/v1"
+}
+```
+
+For a third-party OpenAI-compatible relay or proxy, use that provider's `/v1` API root:
+
+```json
+{
+  "base_url": "https://your-proxy.example.com/v1"
 }
 ```
 
