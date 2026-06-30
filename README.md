@@ -4,6 +4,7 @@ A Codex skill for generating and editing images with `gpt-image-2` through a sep
 
 This skill is designed for users who run Codex with one authentication setup, but want image generation and image editing to use a different API key, account, quota, billing path, or OpenAI-compatible provider.
 
+[中文](https://github.com/junxxxxiao/gpt-image-2-apikey-skill/edit/main/README.zh.md)
 ## Core Problem
 
 Codex may already be authenticated with an API key or a Codex/ChatGPT session. That credential is not always the credential you want to use for image generation.
