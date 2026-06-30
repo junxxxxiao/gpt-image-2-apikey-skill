@@ -1,0 +1,12 @@
+.DS_Store
+.env
+config.json
+*.key
+*.secret
+*.token
+*.png
+*.jpg
+*.jpeg
+*.webp
+__pycache__/
+*.pyc
